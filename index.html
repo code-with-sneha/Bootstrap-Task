@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahndi Design in Bootstrap</title>
+    <!-- custom link -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://png.pngtree.com/png-vector/20200802/ourmid/pngtree-mandala-for-henna-mehndi-tatto-decoration-decorative-ornament-in-style-free-png-image_2319195.jpg">
+    <!-- cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- nav bar -->
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg  navbar-dark" style="background-color: rgba(121, 13, 13, 0.863);">
+            <div class="container">
+                <a href="/" class="navbar-brand"><img src="https://previews.123rf.com/images/artrise/artrise1903/artrise190300292/120884968-vector-henna-mehndi-feather-logo.jpg" alt="myimg" width="70" height="50" loading="lazy" class="d-inline-block align-content-center"></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavBar" aria-controls="myNavBar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="myNavBar">
+                    <ul class="navbar-nav  ms-auto mb-2 mb-lg-0">
+                     <li class="nav-item">
+                        <a href="#home" class="nav-link active" aria-current="page">HOME</a>
+                     </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">ABOUT</a>
+                        </li>
+                         <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#services" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">SERVICES</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#services">Bridal Mehndi</a></li>
+                              <li><a class="dropdown-item" href="#services">Sangeet Mehndi</a></li>
+                              <li><a class="dropdown-item" href="#services">Engagements</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#services">Other Mehndi Designs</a></li>
+                            </ul>
+                          </li>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#gallery" class="nav-link">GALLERY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#reviews" class="nav-link">REVIEWS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#blog" class="nav-link">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">CONTACT ME</a>
+                        </li>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-warning" type="submit">ORDER</button>
+                        </form>
+                    </ul>
+                </div>
+            </div>
+            </nav>
+    </header>
+        <!--Carousel slide-->
+        <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img1.jpeg" class="d-block w-100" alt="img1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Bridal Designs</h5>
+                        <p>Beautiful Bridal Mehndi Designs for your Big Day.</p>
+                      </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img2.jpeg" class="d-block w-100" alt="img2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Arabic Designs</h5>
+                        <p>Beautiful Arabic Mehndi Designs for your Big Day.</p>
+                      </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img3.jpeg" class="d-block w-100" alt="img3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Simple Designs</h5>
+                        <p>Beautiful Simple Mehndi Designs for your Big Day.</p>
+                      </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img4.webp" class="d-block w-100" alt="img4">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Daily Designs</h5>
+                        <p>Beautiful Daily Mehndi Designs for your Big Day.</p>
+                      </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img5.jpeg" class="d-block w-100" alt="img5">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Leg Designs</h5>
+                        <p>Beautiful Leg Mehndi Designs for your Big Day.</p>
+                      </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+            </div>
+        </div>
+        <!-- About page-->
+        <div class="about-area section-padding" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="img-area p-lg-5 p-xs-2">
+                            <img src="about img.jpg" alt="about" class="d-block w-100">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                     <div class="about-text p-5">
+                        <h2 class="text-danger">Best Bridal Mehndi Artist</h2>
+                        <p>Mehndi is a ceremonial art form common in India, Pakistan, Bangladesh, Nepal and Afghanistan. It is typically applied during weddings for Sikh, Muslim and Hindu brides. In Rajasthan, the grooms are given designs that are often as elaborate as those for brides.</p>
+                        <p>Henna has reportedly been used for body art for at least 5,000 years and has a long history of migration and cultural interaction. Some scholars claim that the earliest documentation of henna uses is found in ancient Indian texts and images, indicating that mehandi as an art form may have originated in ancient India.</p>
+                        <p>But according to New-York based mehandi artist Sharmin Samantha, the earliest signs of henna application appear in Egyptians mummies, whose hair and nails were stained with the reddish-brown tones of henna.</p>
+                     </div>   
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- services -->
+        <div class="services-area section-padding" id="services">
+            <div class="container">
+                <h2 class="display-2 text-center" style="color: brown;">What I Do</h2>
+                <p class="text-center" style="font-size: 30px;">Committed to making your special occasion a memorable one.</p>
+                <div class="row p-5">
+                    <div class="col-lg-3 col-sm-12">
+                        <h3>Bridal Mehndi</h3>
+                        <p>A whole range of bridal design options available, from simple to intricate with heavy details, from traditional Indian to Arabic. Packages depend on the style and length of the mehendi on arms and legs.</p>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <h3>Sangeet Parties</h3>
+                        <p>Whether it is mehndi or sangeet night, kick off the wedding festivities with mehndi fun. The pricing is based on an hourly rate and not on a per hand rate.</p>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <h3>Engagements</h3>
+                        <p>Adorn your beautiful hands for the first wedding festivity with some mehndi.</p>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <h3>Baby/Bridal Showers</h3>
+                        <p>Whether it’s belly mehndi or mehndi for your guests at your shower, it’s sure to be a hit.</p>
+                    </div>
+                </div>
+                <div class="row p-1 text-center">
+                    <div class="col-lg-3 col-sm-12">
+                        <h3>Birthday Parties</h3>
+                        <p>Who says mehndi is just for weddings, bring the joy of color to any event.</p>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <h3>School/Corporate Events</h3>
+                        <p>Mehndi is always a super hit at all school and corporate functions.</p>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <h3>Bar/Bat Mitzvah</h3>
+                        <p>Mehndi is fun for all kids and adults a like, ring in the teen hood with a hit Bar/Bat Mitzvah..</p>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <h3>Grad Night</h3>
+                        <p>The new graduates really enjoy this and the henna artist is busy at this event all night.</p>
+                    </div>
+                </div>
+            </div>
+        </div>    
+        <!--Gallary-->
+        <div class="gallery-area section-padding" id="gallery">
+            <div class="container">
+                <h2 class="display-2 text-center" style="color: brown;">Images</h2>
+                    <div class="d-grid gap-2 d-md-block text-center">
+                        <button class="btn" style="background-color: brown; color: white;" type="button">ALL</button>
+                        <button class="btn" style="background-color: brown; color: white;" type="button">FEET</button>
+                        <button class="btn" style="background-color: brown; color: white;" type="button">HANDS</button>
+                        <button class="btn" style="background-color: brown; color: white;" type="button">OTHER</button>
+                    </div>
+                    <div class="row p-5 text-center">
+                    <div class="col-lg-3 col-sm-12">
+                     <img src="https://images.pexels.com/photos/2566639/pexels-photo-2566639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="img1" class="d-block w-100 h-100">
+                     <h4>Designs</h4>
+                     <p>A whole range of bridal design options available, from simple to intricate with heavy details, from traditional Indian to Arabic.</p>
+                    </div> 
+                    <div class="col-lg-3 col-sm-12">
+                        <img src="https://images.pexels.com/photos/12872528/pexels-photo-12872528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="img2" class="d-block w-100 h-100">  
+                        <h4>Designs</h4>
+                        <p>A whole range of bridal design options available, from simple to intricate with heavy details, from traditional Indian to Arabic.</p>
+                     </div> 
+                    <div class="col-lg-3 col-sm-12">
+                        <img src="https://images.pexels.com/photos/18380548/pexels-photo-18380548/free-photo-of-mehndi-henna-tattoo-on-hand.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="img3" class="d-block w-100 h-100">
+                        <h4>Designs</h4>
+                        <p>A whole range of bridal design options available, from simple to intricate with heavy details, from traditional Indian to Arabic.</p>
+                    </div> 
+                    <div class="col-lg-3 col-sm-12">
+                        <img src="https://images.pexels.com/photos/2659257/pexels-photo-2659257.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="img4" class="d-block w-100 h-100">
+                        <h4>Designs</h4>
+                        <p>A whole range of bridal design options available, from simple to intricate with heavy details, from traditional Indian to Arabic.</p>
+                    </div>         
+                </div>    
+            </div>
+        </div> 
+             <!--reviews-->
+                <div class="reviews-area section-padding p-5" id="reviews">
+                    <div class="container">
+                        <h3 class="display-3 text-center p-5 mt-3" style="color: brown;">Thank You</h3>  
+                        <p style="text-align: center;">It has been a pleasure working with all my wonderful brides and their families. Thank you for inviting me into your special festivities and giving me this wonderful opportunity.</p>
+                    </div>  
+                    <div class="row text-center">
+                        <div class="col-md-4 mb-md-0">
+                            <div class="d-flex justify-content-center mb-4">
+                                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1888&q=80" alt="img" class="rounded-circle shadow-1-strong" width="150" height="150">
+                            </div>
+                            <div class="container">
+                                <h5 class="Maria"></h5>
+                                <p class="px-xl-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias velit illum corporis voluptatibus voluptatum sed maxime eos vero quisquam modi!</p>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-md-0">
+                            <div class="d-flex justify-content-center mb-4">
+                                <img src="https://images.unsplash.com/photo-1509967419530-da38b4704bc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1795&q=80" alt="img" class="rounded-circle shadow-1-strong" width="150" height="150">
+                            </div>
+                            <div class="container">
+                                <h5 class="Maria"></h5>
+                                <p class="px-xl-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias velit illum corporis voluptatibus voluptatum sed maxime eos vero quisquam modi!</p>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-regular fa-star-half-stroke text-warning"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-md-0">
+                            <div class="d-flex justify-content-center mb-4">
+                                <img src="https://images.unsplash.com/photo-1523260349522-b9d156a677c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80" alt="img" class="rounded-circle shadow-1-strong" width="150" height="150">
+                            </div>
+                            <div class="container">
+                                <h5 class="Maria"></h5>
+                                <p class="px-xl-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias velit illum corporis voluptatibus voluptatum sed maxime eos vero quisquam modi!</p>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-regular fa-star-half-stroke text-warning"></i>
+                            </div>
+                        </div>  
+                    </div>  
+                </div>
+                <!--Blog-->
+                <div class="blog-area section-padding text-center" id="blog">
+                    <div class="container">
+                        <h2 class="display-2 text-center" style="color: brown;">Blog</h2>
+                        <div class="row">
+                                <div class="col-lg-6 col-sm-12 mx-auto d-block">
+                                    <img src="https://images.pexels.com/photos/12872535/pexels-photo-12872535.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="img" width="500" height="300">                      
+                                </div>
+                                    <div class="d-grid gap-2 d-md-block p-3">
+                                    <button class="btn btn-danger" type="button">OCT 10</button>
+                                    <button class="btn btn-light" type="button">No Comments</button>
+                                  </div>
+                                </div>
+                                <h3>Myths & Traditions About Henna</h3>
+                                <p>"Why is henna/mehndi done for weddings?" is a question I get asked time and again. For a bride to get ready for her wedding, she has to go through 16 beautification, cleansing, and religious rituals called "solah singar". Henna/mehndi is one of the sixteen rituals which is used to beautify the bri ...</p>
+                                <p>Categories: About Henna</p>
+                                <div class="d-grid gap-2 d-md-block">
+                                    <button class="btn btn-secondary" type="button">Read More</button>
+                                  </div>
+                        </div>
+                    </div>
+                </div>       
+                <!--contact-->
+                <div class="contact-area section-padding" id="contact">
+                    <div class="container-para">
+                        <h2 class="display-6 text-center p-3" style="color: brown;">Make your special occasion a memorable one</h2>
+                        <p class="contactpara">Please provide your Name, Email, Phone Number, and the best time to contact you. It will also be very helpful if you can provide information on the Date, Time, City and type of Event you are planning.</p>
+                        <p><a href="#">Email: abc@gmail.com</a></p>
+                        <p>Phone: (+91) 99998 77733</p>
+                        <div class="mb-3">
+                            <label for="form1" class="form-label">Your Name (required)</label>
+                            <input type="text" class="form-control" id="form1" placeholder="Enter your Name">
+                          </div>
+                          <div class="mb-3">
+                            <label for="form2" class="form-label">Your Email (required)</label>
+                            <input type="text" class="form-control" id="form2" placeholder="Enter your Email">
+                          </div>
+                          <div class="mb-3">
+                            <label for="form3" class="form-label">Phone No</label>
+                            <input type="text" class="form-control" id="form3" placeholder="Enter your Phone">
+                          </div>
+                          <div class="mb-3">
+                            <label for="form4" class="form-label">Event Date (required)</label>
+                            <input type="text" class="form-control" id="form4">
+                          </div>
+                          <div class="mb-3">
+                            <label for="form5" class="form-label">Location/City where event will take place (required)</label>
+                            <input type="text" class="form-control" id="form5">
+                          </div>
+                          <div class="dropdown">
+                                <label for="dropdown" class="form-label">Event Type (required)</label>
+                                <br>
+                                <button class="btn dropdown-toggle" type="button" id="dropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Engagements
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropDown">
+                                <li><a class="dropdown-item" href="#">Bridal</a></li>
+                                <li><a class="dropdown-item" href="#">Sangeet</a></li>
+                                <li><a class="dropdown-item" href="#">Birthday</a></li>
+                                <li><a class="dropdown-item" href="#">Baby Shower</a></li>
+                                <li><a class="dropdown-item" href="#">Other Explain in Comments</a></li>
+                                </ul>
+                          </div>
+                            <div class="mb-3 p-2">
+                                <label for="comment" class="form-label">Your Message</label>
+                                <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+                            </div> 
+                            <button class="btn btn-warning" type="button">Send</button>
+                        </div>
+                    </div>
+                </div>  
+                <br>
+                <!--footer-->
+                <footer class="bg-dark text-white pt-5 pb-4">
+                    <div class="container text-center text-md-left">
+                        <div class="row text-center text-md-left">
+                            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                                <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Mahndi Artist</h5>
+                                <p>Please provide your Name, Email, Phone Number, and the best time to contact you. It will also be very helpful if you can provide information on the Date, Time, City and type of Event you are planning.</p>
+                            </div>
+                            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                                <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Products</h5>
+                                <p>
+                                    <a href="#" class="text-white" style="text-decoration: none;">Henna</a>
+                                </p>
+                                <p>
+                                    <a href="#" class="text-white" style="text-decoration: none;">Henna Powders</a>
+                                </p>
+                                <p>
+                                    <a href="#" class="text-white" style="text-decoration: none;">Nature Henna</a>
+                                </p>
+                                <p>
+                                    <a href="#" class="text-white" style="text-decoration: none;">Black, Red</a>
+                                </p>                          
+                            </div>
+                            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                                <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Useful links</h5>
+                                <p>
+                                    <a href="#" class="text-white" style="text-decoration: none;">Your Accounts</a>
+                                </p>
+                                <p>
+                                    <a href="#" class="text-white" style="text-decoration: none;">Become an Affiliate</a>
+                                </p>
+                                <p>
+                                    <a href="#" class="text-white" style="text-decoration: none;">Shipping Rates</a>
+                                </p>
+                                <p>
+                                    <a href="#" class="text-white" style="text-decoration: none;">Helps</a>
+                                </p>
+                            </div>
+                            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                                <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contacts</h5>
+                                <p>
+                                    <i class="fas fa-home mr-3"></i>25A, Chennai, Tamil Nadu
+                                </p>
+                                <p>
+                                    <i class="fas fa-envelope mr-3"></i>abc@gmail.com
+                                </p>
+                                <p>
+                                    <i class="fas fa-phone mr-3"></i>+91 99998 77733
+                                </p>
+                                <p>
+                                    <i class="fas fa-print mr-3"></i>+01 334 333 12
+                                </p>
+                            </div>
+                        </div>
+                        <hr class="mb-4">
+                        <div class="row align-items-center">
+                            <div class="col-md-7 col-lg-8">
+                                <p>Copyright &copy;2023 All rights reserved by:
+                                    <a href="#" style="text-decoration: none;">
+                                    <strong class="text-warning">The Providers</strong></a>
+                                </p>
+                            </div>
+                            <div class="col-md-5 col-lg-4">
+                                <div class="text-center text-md-right">
+                                    <ul class="list-unstyled list-inline">
+                                        <li class="list-inline-item">
+                                            <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-facebook"></i></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-twitter"></i></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-google-plus"></i></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-linkedin"></i></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fab fa-youtube"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>                               
+                            </div>
+                        </div>
+                    </div>
+
+                </footer>     
+        <!--Js cdn-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
